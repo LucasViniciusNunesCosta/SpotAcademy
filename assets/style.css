@@ -1,0 +1,43 @@
+body{
+    background-color: #0e0101;
+    font-family: arial;
+}
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #fff;
+    padding: 50px 20px 50px 20px;
+}
+.header__img{
+    height: auto;
+    width: 300px;
+}
+.header__title{
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 2.4rem;
+}
+.header__title > b{
+    color: #ce0011;
+}
+.header__subtitle{
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1.6rem;
+}
+
+.contato__inputs{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+.contato__input-group{
+    display: flex;
+    flex-direction: column;
+}
+.contato__btn-container{
+    display: flex;
+    justify-content: center;
+}
