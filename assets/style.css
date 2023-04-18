@@ -101,3 +101,35 @@ body{
     color: #ce0011;
     font-weight: 600;
 }
+.depoimentos__container{
+    margin-top: 8rem;
+}
+.depoimentos__informacao{
+    text-align: center;
+}
+.depoimentos__title{
+    color: #ce0011;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.depoimentos__subtitles{
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    text-align: center;
+    color:#ffffff ; 
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.neon-background:hover {
+    background: linear-gradient(45deg, #ce0011);
+    box-shadow:
+    0 0 5px #b5b5b5,
+    0 0 7px #b5b5b5,
+    0 0 7px #b5b5b5,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011;
+  }
