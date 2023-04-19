@@ -1,6 +1,7 @@
 body{
     background-color: #0e0101;
     font-family: arial;
+    margin: 0px 20px 0px 20px;
 }
 .header__container{
     display: flex;
@@ -8,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     color:  #fff;
-    padding: 50px 20px 50px 20px;
+    height: 70vh;
 }
 .header__img{
     height: auto;
@@ -32,6 +33,7 @@ body{
 }
 .contato__container{
     margin-bottom: 4rem;
+    height: 30vh;
 }
 .contato__inputs{
     display: flex;
@@ -51,13 +53,13 @@ body{
 }
 .contato__input-group > input{
     font-size: 1.4rem;
-    width: 25vw;
-    height: 40px;
+    width: 28vw;
+    height: 30px;
     border: 1px solid #FFFFFF2B;
     padding: 15px 13px 15px 13px;
     border-radius: 5px;
     margin-bottom: 1.6rem;
-    background-color: #ffffff33;
+    background-color: #ffffff27;
     color: #fff;
 }
 .contato__btn-container{
@@ -133,3 +135,10 @@ body{
     0 0 7px #ce0011,
     0 0 7px #ce0011;
   }
+::-webkit-scrollbar {
+    width: 6px;
+    background: #4b4b4b23;
+}
+::-webkit-scrollbar-thumb {
+    background: #ce0011;
+}
