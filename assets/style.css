@@ -142,3 +142,20 @@ body{
 ::-webkit-scrollbar-thumb {
     background: #ce0011;
 }
+.depoimentos__carrosel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 80vw;
+}
+.carrosel__container{
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.carrosel__container> img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
