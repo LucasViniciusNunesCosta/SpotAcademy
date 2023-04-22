@@ -105,9 +105,18 @@ body{
 }
 .depoimentos__container{
     margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 80vh;
 }
 .depoimentos__informacao{
-    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
 }
 .depoimentos__title{
     color: #ce0011;
@@ -122,29 +131,14 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
-
-.neon-background:hover {
-    background: linear-gradient(45deg, #ce0011);
-    box-shadow:
-    0 0 5px #b5b5b5,
-    0 0 7px #b5b5b5,
-    0 0 7px #b5b5b5,
-    0 0 7px #ce0011,
-    0 0 7px #ce0011,
-    0 0 7px #ce0011,
-    0 0 7px #ce0011,
-    0 0 7px #ce0011;
-  }
-::-webkit-scrollbar {
-    width: 6px;
-    background: #4b4b4b23;
+.depoimento__img{
+    height: 60%;
 }
-::-webkit-scrollbar-thumb {
-    background: #ce0011;
+
+.slider{
+    height: 100%;
 }
 .slide {
-    max-width: 100%;
-    margin: 20px auto;
     display: grid;
     box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
   }
@@ -207,6 +201,26 @@ body{
     transform: translateX(-100%);
     animation: thumb 5s forwards linear;
   }
+
+.neon-background:hover {
+    background: linear-gradient(45deg, #ce0011);
+    box-shadow:
+    0 0 5px #b5b5b5,
+    0 0 7px #b5b5b5,
+    0 0 7px #b5b5b5,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011,
+    0 0 7px #ce0011;
+  }
+::-webkit-scrollbar {
+    width: 6px;
+    background: #4b4b4b23;
+}
+::-webkit-scrollbar-thumb {
+    background: #ce0011;
+}
   
   @keyframes thumb {
     to {
