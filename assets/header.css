@@ -1,0 +1,26 @@
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #fff;
+    height: 70vh;
+}
+.header__img{
+    height: auto;
+    width: 22vw;
+}
+.header__title{
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.header__title > b{
+    color: #ce0011;
+}
+.header__subtitle{
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1.6rem;
+}
