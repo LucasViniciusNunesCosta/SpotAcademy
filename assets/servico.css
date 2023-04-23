@@ -1,0 +1,24 @@
+.servicos__container{
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    justify-content: center;
+}
+.servico{
+    padding: 30px 13px 30px 13px;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    border-color: #ec000096;
+    background-color: #000000a1;
+    background-image: radial-gradient(at top right,#ff000030 0%,#39DD9400 75%);
+    cursor: pointer;
+    height: auto;
+    min-width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.servico__descricao{
+    font-size: 1.4rem;
+    color: #ce0011;
+    font-weight: 600;
+}

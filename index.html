@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/contato.css" />
+    <link rel="stylesheet" href="assets/depoimentos.css" />
+    <link rel="stylesheet" href="assets/header.css" />
+    <link rel="stylesheet" href="assets/servico.css" />
+    <link rel="stylesheet" href="assets/footer.css" />
+    <title>Spot Academy</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header__container">
+      <img class="header__img" src="assets/Logo-Spot-Academy-3.0.webp" alt="Logo Spot Academy com logo de roleta"/>
+      <h1 class="header__title">
+        <b>Inscreva-se</b> para garantir sua vaga na <b>Sala Black</b>
+      </h1>
+      <h2 class="header__subtitle">Onde a estratégia é a chave do sucesso</h2>
+    </header>
+    <div class="contato__container">
+      <div class="contato__inputs">
+        <div class="contato__input-group">
+          <label for="nome">Nome*</label>
+          <input type="text" name="nome" id="input-name" placeholder="Nome" required/>
+        </div>
+
+        <div class="contato__input-group">
+          <label for="email">Email*</label>
+          <input type="email" name="email" id="input-email" placeholder="Email" required/>
+        </div>
+
+        <div class="contato__input-group">
+          <label for="whats">Whatsapp*</label>
+          <input type="tel" name="whats" id="input-whats" placeholder="Whatsapp" required pattern="\(\d{2}\)\s\d{4,5}-\d{4}" required/>
+        </div>
+      </div>
+      <div class="contato__btn-container">
+        <button class="contato__btn neon-background" type="submit">
+          Quero me cadastrar
+        </button>
+      </div>
+    </div>
+    <div class="servicos__container">
+      <div class="servico">
+        <img src="" alt="" class="servico__logo" />
+        <span class="servico__descricao">Alta Assertividade</span>
+      </div>
+      <div class="servico">
+        <img src="" alt="" class="servico__logo" />
+        <span class="servico__descricao">Sinais ao vivo em live</span>
+      </div>
+      <div class="servico">
+        <img src="" alt="" class="servico__logo" />
+        <span class="servico__descricao">Sinais pelo Telegram</span>
+      </div>
+      <div class="servico">
+        <img src="" alt="" class="servico__logo" />
+        <span class="servico__descricao">Suporte Exclusivo</span>
+      </div>
+    </div>
+    <div class="depoimentos__container">
+      <div class="depoimentos__informacao">
+        <h2 class="depoimentos__title">Depoimentos</h2>
+        <h3 class="depoimentos__subtitles">Só vitória, Sem enrolação!</h3>
+      </div>
+      <div class="slider">
+        <div data-slide="slide" class="slide">
+          <div class="slide-items">
+            <img src="assets/Print-02.png" alt="Img" id="img" class="depoimento__img"/>
+            <img src="assets/Print-03.png" alt="Img" id="img" class="depoimento__img"/>
+            <img src="assets/Print-04.png" alt="Img" id="img" class="depoimento__img"/>
+            <img src="assets/Print-05.png" alt="Img" id="img" class="depoimento__img"/>
+            <img src="assets/Print-06.png" alt="Img" id="img" class="depoimento__img"/>
+            <img src="assets/Print-07.png" alt="Img" id="img" class="depoimento__img"/>
+            <div>
+              <nav class="slide-nav">
+                <div class="slide-thumb"></div>
+                <button class="slide-prev">Anterior</button>
+                <button class="slide-next">Próximo</button>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      
+    </footer>
+  </body>
+</html>
