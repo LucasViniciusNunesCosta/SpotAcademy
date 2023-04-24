@@ -9,12 +9,14 @@
 .header__img{
     height: auto;
     width: 22vw;
+    animation: animation-logo 2s ease-in;
 }
 .header__title{
     font-weight: 700;
     line-height: 1.2em;
     font-size: 2.4rem;
     text-align: center;
+    animation: animation-title 2s ease-in;
 }
 .header__title > b{
     color: #ce0011;
@@ -23,4 +25,26 @@
     font-weight: 500;
     line-height: 25px;
     font-size: 1.6rem;
+    animation: animation-title 2s ease-in;
 }
+
+@keyframes animation-logo{
+    from{
+      transform: translatey(-300px);
+      opacity: 0%;
+    }
+    to{
+      transform: translatey(0);
+      opacity: 100%;
+    }
+}
+@keyframes animation-title{
+    from{
+      transform: translatex(-600px);
+      opacity: 0%;
+    }
+    to{
+      transform: translatex(0);
+      opacity: 100%;
+    }
+  }
