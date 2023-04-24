@@ -1,48 +1,68 @@
-.contato__container{
-    margin-bottom: 4rem;
-    height: 30vh;
+.contato__container {
+  margin-bottom: 4rem;
+  height: 30vh;
 }
-.contato__inputs{
-    display: flex;
-    color: #fff;
-    justify-content: space-around;
+.contato__inputs {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
 }
-.contato__input-group{
-    display: flex;
-    flex-direction: column;
+.contato__input-group {
+  display: flex;
+  flex-direction: column;
+  animation: animation-input 3s ease-in;
 }
-.contato__input-group > label{
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    color: #C01724;
-    padding-bottom: .5rem;
+.contato__input-group > label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #c01724;
+  padding-bottom: 0.5rem;
 }
-.contato__input-group > input{
-    font-size: 1.4rem;
-    width: 28vw;
-    height: 30px;
-    border: 1px solid #FFFFFF2B;
-    padding: 15px 13px 15px 13px;
-    border-radius: 5px;
-    margin-bottom: 1.6rem;
-    background-color: #ffffff27;
-    color: #fff;
+.contato__input-group > input {
+  font-size: 1.4rem;
+  width: 28vw;
+  height: 30px;
+  border: 1px solid #ffffff2b;
+  padding: 15px 13px 15px 13px;
+  border-radius: 5px;
+  margin-bottom: 1.6rem;
+  background-color: #ffffff27;
+  color: #fff;
 }
-.contato__btn-container{
-    display: flex;
-    justify-content: center;
+.contato__btn-container {
+  display: flex;
+  justify-content: center;
 }
-.contato__btn{
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    padding: 20px 25px 20px 25px;
-    background: linear-gradient(270deg, #E90013, #C01724, #E90013, #C01724);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    width: 20vw;
-    height: auto;
+.contato__btn {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  padding: 20px 25px 20px 25px;
+  background: linear-gradient(270deg, #e90013, #c01724, #e90013, #c01724);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  animation: scale-up-hor-center .7s cubic-bezier(.39,.575,.565,1.000) 3s both;
+}
+@keyframes animation-input {
+  from {
+    transform: translatex(-600px);
+    opacity: 0%;
+  }
+  to {
+    transform: translatex(0);
+    opacity: 100%;
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(0.0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
