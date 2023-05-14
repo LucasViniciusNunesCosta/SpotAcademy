@@ -1,0 +1,78 @@
+.garantir-hoje{
+    display: flex;
+    justify-content: space-between;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    
+}
+.garantir-hoje__text{
+    color: #ffbe03;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.garantir-hoje__button{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #e90013;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 20vw;
+}
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    background-color: #000;
+    color: #fff;
+}
+.header__title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    max-width: 690px;
+    text-align: center;
+}
+.header__title>b{
+    color: #ffbe03;
+}
+.header__subtitle{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    max-width: 790px;
+}
+.header__text-red{
+    color: #e90013;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+.header__text-ofertas{
+    color: #ffffff;
+    font-family: "Dystopian", Sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.header__visualizar-ofertas{
+    padding: 10px 25px;
+    width: 223px;
+    height: 60px;
+    background-color: #ffe05e;
+    color: #0C0C0C;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 5rem;
+}
