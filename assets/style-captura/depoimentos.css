@@ -1,6 +1,5 @@
 .depoimentos__container{
     margin-top: 4rem;
-    height: 100vh;
     margin-bottom: 4rem;
 }
 .depoimentos__informacao{
@@ -24,28 +23,26 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
-
-/*Slides com depoimentos*/
-.slider {
-  position: relative;
+.slider-container {
   overflow: hidden;
   width: 100%;
 }
 
-.slider-container {
-  height: 100%;
+.slider {
   display: flex;
-  width: calc(100% * 6);
-  transition: transform 0.5s ease-in-out;
+  animation: slide 20s linear infinite;
+}
+.slider> img{
+  width: 20vw;
+  min-width: 300px;
+  height: auto;
 }
 
-.slider-item {
-  width: auto;
-}
-.slider-item > img{
-  height: auto;
-  width: 85%;
-}
-.slider-item:last-child {
-  margin-right: 0;
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
