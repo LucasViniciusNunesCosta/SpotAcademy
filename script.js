@@ -1,17 +1,30 @@
 const slider = document.querySelector('.slider');
-const sliderContainer = document.querySelector('.slider-container');
-const sliderItems = document.querySelectorAll('.slider-item');
-const sliderWidth = slider.offsetWidth;
-let slideIndex = 0;
+const slides = slider.querySelectorAll('img');
 
-window.addEventListener('resize', () => {
-  sliderWidth = slider.offsetWidth;
+// Clonar os primeiros slides e adicioná-los no final
+slides.forEach((slide, index) => {
+  if (index < slides.length - 1) {
+    const clone = slide.cloneNode(true);
+    slider.appendChild(clone);
+  }
 });
 
-setInterval(() => {
-  slideIndex++;
-  if (slideIndex > sliderItems.length - 3) {
-    slideIndex = 0;
+// Obter a largura total do slider
+const sliderWidth = slider.clientWidth;
+
+// Definir a duração da animação com base na largura do slider
+const animationDuration = slides.length * 10;
+
+// Aplicar a duração personalizada à animação no CSS
+const style = document.createElement('style');
+style.textContent = `
+  .slider {
+    animation-duration: ${animationDuration}s;
   }
-  sliderContainer.style.transform = `translateX(-${slideIndex * sliderWidth / 7.5}px)`;
-}, 3000);
+`;
+document.head.appendChild(style);
+
+// Reiniciar a animação quando o slider voltar para a primeira imagem
+slider.addEventListener('animationiteration', () => {
+  slider.style.transform = 'translateX(0)';
+});
