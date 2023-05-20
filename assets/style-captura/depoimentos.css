@@ -30,7 +30,7 @@
 
 .slider {
   display: flex;
-  animation: slide 20s linear infinite;
+  animation: slide 20s alternate infinite;
 }
 .slider> img{
   width: 20vw;
@@ -43,6 +43,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-88vw);
   }
 }
