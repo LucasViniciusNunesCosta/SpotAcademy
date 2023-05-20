@@ -3,7 +3,7 @@ const slides = slider.querySelectorAll('img');
 
 // Clonar os primeiros slides e adicioná-los no final
 slides.forEach((slide, index) => {
-  if (index < slides.length - 1) {
+  if (index < slides.length) {
     const clone = slide.cloneNode(true);
     slider.appendChild(clone);
   }
@@ -13,7 +13,7 @@ slides.forEach((slide, index) => {
 const sliderWidth = slider.clientWidth;
 
 // Definir a duração da animação com base na largura do slider
-const animationDuration = slides.length * 10;
+const animationDuration = slides.length * 3;
 
 // Aplicar a duração personalizada à animação no CSS
 const style = document.createElement('style');
