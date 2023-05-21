@@ -9,15 +9,17 @@ body{
     font-family: arial;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #000;
-    border-bottom: solid 1px #e90013;
+    background-color: #00000009;
+    backdrop-filter: blur(5px);
+    border-bottom: solid 1px;
+    border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
     position: sticky;
     top: 0;
     z-index: 1;
 }
 .garantir-hoje__text{
     color: #ffbe03;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -25,12 +27,23 @@ body{
     padding: 12px 16px;
     background-color: #e90013;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-transform: uppercase;
     border: none;
     border-radius: 8px;
     max-width: 20vw;
     text-decoration: none;
+    transition-duration: 0.2s;
+}
+.garantir-hoje__button:hover{
+    background-color: #fff;
+    color: #e90013;
+}
+.main{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header__container{
     display: flex;
@@ -72,11 +85,10 @@ body{
     font-weight: 500;
 }
 .header__visualizar-ofertas{
-    padding: 10px 25px;
-    width: 223px;
-    height: 60px;
+    padding: 22px 20px;
     background-color: #ffe05e;
     color: #0C0C0C;
+    text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     border: none;
@@ -85,10 +97,19 @@ body{
     animation: heartbeat 1.5s ease-in-out infinite;
 }
 .spot-academy{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     background-color: #000;
     color: #fff;
+    box-sizing: border-box;
+    justify-content: space-around;
     padding: 2rem;
-    border-bottom: solid .5px #e90013;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
+}
+.spot-academy__ilustration{
+    width: 20%;
 }
 .spot-academy__title{
     color: #e90013;
@@ -100,11 +121,21 @@ body{
     font-weight: 400;
     width: 70vw;
     margin-bottom: .9rem;
+    text-align: justify;
 }
 .suporte{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #000;
     color: #fff;
+    box-sizing: border-box;
     padding: 2rem;
+    text-align: justify;
+}
+.suporte__ilustration{
+    width: 15%;
+    height: auto;
 }
 .suporte__title{
     color: #e90013;
@@ -119,10 +150,20 @@ body{
     width: 70vw;
 }
 .about-me{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
     background-color: #000;
     color: #fff;
     padding: 2rem;
-     border-bottom: solid 1px #e90013;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
+}
+.about-me__photo{
+    width: 20%;
+    border-radius: 10px;
 }
 .about-me__title{
     color: #e90013;
@@ -165,7 +206,8 @@ body{
 .opcao__card{
     min-width: 300px;
     width: 30vw;
-    border: solid 1px #e90013;
+    border-bottom: solid 1px;
+    border: 1px solid #e90013;
     background-color: #0d0b0b;
     box-sizing: border-box;
     border-radius: 30px;
@@ -176,7 +218,7 @@ body{
     align-items: center;
     line-height: 1.5;
 }
-.opcao__card:nth-child(1){
+.opcao__card:hover{
     border-color: #FFD700;
 }
 .opcao__card>img{
@@ -207,4 +249,165 @@ body{
     width: 60%;
     font-size: 1rem;
     text-decoration: none;
+    transition-duration: 0.2s;
 }
+.card__button:hover{
+    background-color: #fff;
+    color: #e90013;
+}
+.bounce-top {
+	-webkit-animation: bounce-top 1.4s both;
+	        animation: bounce-top 1.4s both;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    width: 100%; 
+    box-sizing: border-box;
+    color: #fff;
+}
+.instagram__photo{
+   border-radius: 50%;
+   width: 15vw;
+   max-width: 223px;
+   height: auto;
+}
+.instagram__id{
+    font-size: 1.2rem;
+}
+.instagram__id img{
+    height: 100%;
+    width: 1.2rem;
+}
+.instagram__me-siga{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.instagram__me-siga > b{
+    box-shadow: inset 0 -0.5rem 0 #ed0719;
+}
+.instagram__seguir-agora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 10vw;
+    min-width: 140px;
+    padding: 18px 18px;
+    border-radius: 10px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.instagram__icon{
+    fill: #ffff;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+@-webkit-keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
