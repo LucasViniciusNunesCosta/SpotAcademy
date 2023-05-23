@@ -1,0 +1,51 @@
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    background-color: #000;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.header__title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    max-width: 690px;
+    text-align: center;
+}
+.header__title>b{
+    color: #ffbe03;
+}
+.header__subtitle{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    max-width: 790px;
+}
+.header__text-red{
+    color: #e90013;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+.header__text-ofertas{
+    color: #ffffff;
+    font-family: "Dystopian", Sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.header__visualizar-ofertas{
+    padding: 22px 20px;
+    background-color: #ffe05e;
+    color: #0C0C0C;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 5rem;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}

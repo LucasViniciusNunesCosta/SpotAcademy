@@ -1,0 +1,26 @@
+.suporte{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: justify;
+}
+.suporte__ilustration{
+    width: 15%;
+    height: auto;
+}
+.suporte__title{
+    color: #e90013;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+}
+.suporte__text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    width: 70vw;
+}

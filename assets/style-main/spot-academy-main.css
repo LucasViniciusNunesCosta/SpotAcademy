@@ -1,0 +1,27 @@
+.spot-academy{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
+}
+.spot-academy__ilustration{
+    width: 20%;
+}
+.spot-academy__title{
+    color: #e90013;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.spot-academy__text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 70vw;
+    margin-bottom: .9rem;
+    text-align: justify;
+}
