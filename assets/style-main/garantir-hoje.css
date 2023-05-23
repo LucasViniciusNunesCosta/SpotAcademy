@@ -1,0 +1,50 @@
+.garantir-hoje{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00000009;
+    backdrop-filter: blur(5px);
+    border-bottom: solid 1px;
+    border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.garantir-hoje__text{
+    color: #ffbe03;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.garantir-hoje__button{
+    padding: 12px 16px;
+    background-color: #e90013;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    max-width: 20vw;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.garantir-hoje__button:hover{
+    background-color: #fff;
+    color: #e90013;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .garantir-hoje{
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .garantir-hoje__text{
+        font-size: .7rem;
+    }
+    .garantir-hoje__button{
+        font-size: .7rem;
+        text-align: center;
+    }
+}

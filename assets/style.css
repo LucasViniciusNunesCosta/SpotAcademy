@@ -2,9 +2,6 @@ body{
     background-color: #020101;
     font-family: arial;
 }
-.main{
-  margin: 0px 20px 0px 20px;
-}
 .neon-background:hover {
     background: linear-gradient(45deg, #ce0011);
     box-shadow:
