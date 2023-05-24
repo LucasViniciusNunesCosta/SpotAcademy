@@ -1,3 +1,10 @@
+:root{
+        --vermelho-vivo: #e90013;
+        --vermelho: #ce0011;
+        --vermelho-escuro: #ec000096;
+        --branco: #fff;
+        --amarelo: #ffbe03;
+}
 body{
     background-color: #020101;
     font-family: arial;
