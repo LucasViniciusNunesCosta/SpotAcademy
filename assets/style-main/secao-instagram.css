@@ -46,3 +46,22 @@
     height: 1.2rem;
     width: 1.2rem;
 }
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .instagram{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .instagram__photo{
+        width: 35vw;
+    }
+    .instagram__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .instagram__me-siga{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+}

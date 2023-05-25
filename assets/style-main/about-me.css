@@ -27,13 +27,31 @@
     width: 70vw;
 }
 @media screen and (min-width: 320px) and (max-width: 480px){
-    .spot-academy, .suporte, .about-me{
+    .about-me{
         flex-direction: column;
     }
-    .spot-academy__ilustration,.suporte__ilustration,.about-me__photo{
+    .about-me__photo{
         width: 70vw;
+        margin-bottom: 40px;
     }
-    .spot-academy__text, .spot-academy__title ,.suporte__text, .suporte__title, .about-me__text, .about-me__title{
+    .about-me__title{
+        text-align: center;
+        color: var(--amarelo);
+    }
+    .about-me__text{
+        text-align: center;
+        width: 80vw;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .about-me{
+        flex-direction: column;
+    }
+    .about-me__photo{
+        width: 70vw;
+        margin-bottom: 40px;
+    }
+    .about-me__title{
         text-align: center;
     }
 }
