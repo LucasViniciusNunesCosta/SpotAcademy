@@ -26,7 +26,7 @@
     gap: 8vw;
 }
 .opcao__card{
-    min-width: 300px;
+    min-width: 280px;
     width: 30vw;
     border-bottom: solid 1px;
     border: 1px solid #e90013;
@@ -80,4 +80,31 @@
 .bounce-top {
 	-webkit-animation: bounce-top 1.4s both;
 	        animation: bounce-top 1.4s both;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .planos__text-title{
+        font-size: 1.5rem;
+    }
+    .planos__text-description{
+        max-width: 80vw;
+    }
+    .planos__opcoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .opcao__card{
+        width: 80vw;
+        padding: 1rem .5rem;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .planos__opcoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .opcao__card{
+        width: 80vw;
+        max-width: 445px;
+        padding: 1rem;
+    }
 }

@@ -17,6 +17,7 @@
     color: #e90013;
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
 }
 .spot-academy__text{
     font-size: 1.1rem;
@@ -24,4 +25,35 @@
     width: 70vw;
     margin-bottom: .9rem;
     text-align: justify;
+}
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .spot-academy{
+        flex-direction: column;
+    }
+    .spot-academy__ilustration{
+        width: 60vw;
+    }
+    .spot-academy__title{
+        color: var(--amarelo);
+    }
+    .spot-academy__text{
+        text-align: center;
+        width: 80vw;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .spot-academy{
+        flex-direction: column;
+    }
+    .spot-academy__ilustration{
+        width: 60vw;
+        max-width: 350px;
+    }
+    .spot-academy__text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
 }

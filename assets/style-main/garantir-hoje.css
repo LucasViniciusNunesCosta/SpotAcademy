@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
     font-family: arial;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -42,9 +43,18 @@
     }
     .garantir-hoje__text{
         font-size: .7rem;
+        text-align: center;
     }
     .garantir-hoje__button{
-        font-size: .7rem;
+        display: none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 510px){
+    .garantir-hoje__button{
+        display: none;
+    }
+    .garantir-hoje__text{
+        font-size: 1rem;
         text-align: center;
     }
 }

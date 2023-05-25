@@ -7,6 +7,7 @@
     color: #fff;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 .header__title{
     font-size: 2.3rem;
@@ -48,4 +49,42 @@
     border-radius: 40px;
     margin-bottom: 5rem;
     animation: heartbeat 1.5s ease-in-out infinite;
+}
+.servicos__container{
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    justify-content: center;
+}
+.servico{
+    padding: 20px 10px 20px 10px;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    border-color: #ec000096;
+    background-color: #000000a1;
+    background-image: radial-gradient(at top right,#ff000030 0%,#39DD9400 75%);
+    cursor: pointer;
+    min-width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.servico__descricao{
+    font-size: 1.4rem;
+    color: #ce0011;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .header__title{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+    .header__subtitle{
+        font-size: 1.1rem;
+        width: 80vw;
+    }
+    .servico__descricao{
+        font-size: 1rem;
+        width: 80vw;
+    }
 }
