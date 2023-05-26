@@ -8,7 +8,7 @@
 }
 .header__img{
     height: auto;
-    width: 50vw;
+    width: 35vw;
     max-width: 367px;
     min-width: 230px;
     animation: animation-logo 2s ease-in;
@@ -29,7 +29,11 @@
     font-size: 1.6rem;
     animation: animation-title 2s ease-in;
 }
-
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .header__subtitle{
+    text-align: center;
+  }
+}
 @keyframes animation-logo{
     from{
       transform: translatey(-300px);

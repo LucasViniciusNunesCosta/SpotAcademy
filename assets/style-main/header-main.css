@@ -91,4 +91,10 @@
         font-size: 1rem;
         width: 80vw;
     }
+    .servicos__container{
+        flex-direction: column;
+    }
+    .servico{
+        width: 70vw;
+    }
 }

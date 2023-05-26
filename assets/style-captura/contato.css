@@ -67,3 +67,18 @@
     transform: scaleX(1);
   }
 }
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .contato__container{
+    height: auto;
+  }
+  .contato__inputs{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contato__input-group{
+    width: 80vw;
+  }
+  .contato__input-group > input{
+    width: auto;
+  }
+}

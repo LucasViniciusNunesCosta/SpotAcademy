@@ -21,3 +21,12 @@
     color: #ce0011;
     font-weight: 600;
 }
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .servicos__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .servico{
+        width: 80vw;
+    }
+}
