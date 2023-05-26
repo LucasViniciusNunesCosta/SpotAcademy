@@ -6,6 +6,7 @@
     width: 100%; 
     box-sizing: border-box;
     color: #fff;
+    margin-bottom: 4rem;
 }
 .instagram__photo{
    border-radius: 50%;

@@ -31,6 +31,7 @@
     }
     .suporte__title{
         color: var(--amarelo);
+        text-align: center;
     }
     .suporte__ilustration{
         width: 35vw;
