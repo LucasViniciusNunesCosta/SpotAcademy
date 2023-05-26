@@ -7,11 +7,12 @@
     background-color: #000;
     color: #fff;
     padding: 2rem;
+    gap: 1rem;
     border-bottom: solid 1px;
     border-image: linear-gradient(90deg,rgba(242,41,130,0),#FD151B,rgba(242,41,130,0)) 1;
 }
 .about-me__photo{
-    width: 20%;
+    width: 25%;
     border-radius: 10px;
 }
 .about-me__title{
@@ -26,9 +27,12 @@
     margin: 0;
     width: 70vw;
 }
+.about-me__text >b{
+    color: var(--amarelo);
+}
 @media screen and (min-width: 320px) and (max-width: 480px){
     .about-me{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .about-me__photo{
         width: 70vw;
@@ -45,7 +49,7 @@
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
     .about-me{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .about-me__photo{
         width: 70vw;
@@ -53,5 +57,13 @@
     }
     .about-me__title{
         text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .about-me{
+        flex-direction: column-reverse;
+    }
+    .about-me__text{
+        width: 90vw;
     }
 }

@@ -67,11 +67,15 @@
     min-width: 20vw;
     border-radius: 10px;
     text-align: center;
+    color: #ce0011;
 }
 .servico__descricao{
     font-size: 1.4rem;
-    color: #ce0011;
     font-weight: 600;
+}
+.servico:hover{
+    border-color: var(--amarelo);
+    color: var(--amarelo);
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
