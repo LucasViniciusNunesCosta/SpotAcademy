@@ -9,6 +9,7 @@
 body{
     background-color: #020101;
     font-family: arial;
+    margin: 0;
 }
 .neon-background:hover {
     background: linear-gradient(45deg, #ce0011);
