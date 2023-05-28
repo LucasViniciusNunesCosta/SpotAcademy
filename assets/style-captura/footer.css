@@ -1,6 +1,25 @@
 .footer{
-    height: 5vh;
-    width: 100%;
     color: #fff;
     background: linear-gradient(0deg, #b60505 20%, #dd0404 80%);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.rodape__opcoes{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 765px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
 }

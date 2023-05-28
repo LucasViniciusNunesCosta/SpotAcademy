@@ -4,11 +4,11 @@
     justify-content: center;
     align-items: center;
     color:  #fff;
-    height: 70vh;
+    padding-top: 2rem;
 }
 .header__img{
     height: auto;
-    width: 35vw;
+    width: 25vw;
     max-width: 367px;
     min-width: 230px;
     animation: animation-logo 2s ease-in;
