@@ -3,7 +3,7 @@
     flex-direction: row-reverse;
     align-items: center;
     background-color: #000;
-    color: #fff;
+    color: var(--branco);
     box-sizing: border-box;
     justify-content: space-around;
     padding: 2rem;
@@ -14,7 +14,7 @@
     width: 20%;
 }
 .spot-academy__title{
-    color: #e90013;
+    color: var(--vermelho-vivo);
     font-size: 2rem;
     font-weight: 700;
     text-align: center;

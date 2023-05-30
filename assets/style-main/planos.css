@@ -1,5 +1,5 @@
 .planos{
-    color: #fff;
+    color: var(--branco);
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     font-size: 2.2rem;
     font-weight: 800;
     line-height: 1.2em;
-    color:#e90013;
+    color: var(--vermelho-vivo);
 }
 .planos__text-description{
     color: #FFFFFF7A;
@@ -29,7 +29,7 @@
     min-width: 280px;
     width: 30vw;
     border-bottom: solid 1px;
-    border: 1px solid #e90013;
+    border: 1px solid var(--vermelho-vivo);
     background-color: #0d0b0b;
     box-sizing: border-box;
     border-radius: 30px;
@@ -41,7 +41,7 @@
     line-height: 1.5;
 }
 .opcao__card:hover{
-    border-color: #FFD700;
+    border-color: var(--amarelo);
 }
 .opcao__card>img{
     width: 50%;
@@ -50,12 +50,12 @@
 .card__plano-tipo>h3{
     font-size: 1.5rem;
     font-weight: 700;
-    color: #e90013;
+    color: var(--vermelho-vivo);
 }
 .card__plano-preco>p{
     font-size: 2rem;
     font-weight: 800;
-    color: #e90013;
+    color: var(--vermelho-vivo);
     margin: 0;
 }
 .card__plano-beneficios{
@@ -72,8 +72,8 @@
     list-style-image: url(../images/hot.png);
 }
 .card__button{
-    background-color: #e90013;
-    color: #fff;
+    background-color: var(--vermelho-vivo);
+    color: var(--branco);
     border: none;
     padding: 18px 20px;
     border-radius: 20px;
@@ -84,7 +84,7 @@
 }
 .card__button:hover{
     background-color: #fff;
-    color: #e90013;
+    color: var(--vermelho-vivo);
 }
 .bounce-top {
 	-webkit-animation: bounce-top 1.4s both;

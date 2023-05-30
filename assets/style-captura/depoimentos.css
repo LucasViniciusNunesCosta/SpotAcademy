@@ -10,7 +10,7 @@
     margin-bottom: 3rem;
 }
 .depoimentos__title{
-    color: #ce0011;
+    color: var(--vermelho-vivo);
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 0;
@@ -19,7 +19,7 @@
     margin-top: 0;
     margin-bottom: 0.9rem;
     text-align: center;
-    color:#ffffff ; 
+    color: var(--branco); 
     font-size: 1.5rem;
     font-weight: 400;
 }

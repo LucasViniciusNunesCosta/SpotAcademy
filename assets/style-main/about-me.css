@@ -5,7 +5,7 @@
     align-items: center;
     text-align: justify;
     background-color: #000;
-    color: #fff;
+    color: var(--branco);
     padding: 2rem;
     gap: 1rem;
     border-bottom: solid 1px;
@@ -16,7 +16,7 @@
     border-radius: 10px;
 }
 .about-me__title{
-    color: #e90013;
+    color: var(--vermelho-vivo);
     font-size: 2rem;
     font-weight: 700;
     margin: 0px 0px 15px 0px;

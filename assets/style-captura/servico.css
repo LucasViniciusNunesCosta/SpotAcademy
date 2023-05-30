@@ -1,7 +1,7 @@
 .servicos__container{
     display: flex;
     gap: 1rem;
-    color: #fff;
+    color: var(--branco);
     justify-content: center;
 }
 .servico{
@@ -12,7 +12,7 @@
     padding: 20px 10px 20px 10px;
     border-style: solid;
     border-width: 0px 0px 1px 1px;
-    border-color: #ec000096;
+    border-color: var(--vermelho-escuro);
     background-color: #000000a1;
     background-image: radial-gradient(at top right,#ff000030 0%,#39DD9400 75%);
     cursor: pointer;
@@ -26,7 +26,7 @@
 }
 .servico__descricao{
     font-size: 1.4rem;
-    color: #ce0011;
+    color: var(--vermelho);
     font-weight: 600;
 }
 @media screen and (min-width: 320px) and (max-width: 480px){

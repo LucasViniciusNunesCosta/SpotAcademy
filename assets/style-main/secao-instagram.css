@@ -5,7 +5,7 @@
     gap: 1.3rem;
     width: 100%; 
     box-sizing: border-box;
-    color: #fff;
+    color: var(--branco);
     margin-bottom: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -46,7 +46,7 @@
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 .instagram__icon{
-    fill: #ffff;
+    fill: var(--branco);
     height: 1.2rem;
     width: 1.2rem;
 }

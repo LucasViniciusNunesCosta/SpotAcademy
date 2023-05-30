@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:  #fff;
+    color:  var(--branco);
     padding-top: 2rem;
 }
 .header__img{
@@ -21,7 +21,7 @@
     animation: animation-title 2s ease-in;
 }
 .header__title > b{
-    color: #ce0011;
+    color: var(--vermelho);
 }
 .header__subtitle{
     font-weight: 500;
