@@ -26,6 +26,7 @@
     font-weight: 400;
     margin: 0;
     width: 70vw;
+    line-height: 2rem;
 }
 .about-me__text >b{
     color: var(--amarelo);
