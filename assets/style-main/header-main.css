@@ -81,13 +81,8 @@
     font-weight: 600;
 }
 .servico:hover{
-    border-color: var(--branco);
-    color: var(--branco);
+    border-color: var(--amarelo);
 }
-.servico__logo:hover{
-    fill: var(--branco);
-}
-
 @media screen and (min-width: 320px) and (max-width: 480px){
     .header__title{
         font-size: 1.5rem;
